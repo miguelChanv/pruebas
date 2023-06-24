@@ -1,3 +1,79 @@
 @import "./reset/reset";
 @import "./pages/inicio";
 @import "./pages/login";
+.catalogo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    text-align: center;
+    flex-direction: column;
+}
+
+.catalogo__logo{
+    width: 100%;
+}
+.catalogo__logo img{
+    width: 50%;
+}
+.catalogo h2{
+    color: white;
+}
+.catalogo__txt{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+}
+.carousel-item h4{
+    margin-top: 1rem;
+}
+.catalogo__contenedor{
+    width: 80%;
+}
+.carrusel__btn{
+    background-color: orangered;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.carrusel__btn2{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.catalogo__precio{
+    margin-top: 20px;
+}
+.catalogo__precio-txt h4{
+    color: white;
+}
+.catalogo__precio-txt h3{
+    color: orangered;
+}
+.catalogo__precio-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.catalogo__btn{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    width: 200px;
+    padding: 9px 10px;
+    border-radius: 7px;
+    border:1px solid rgba(255, 255, 255, 0.336);
+}
+.catalogo__btn2{
+    border: none;
+    color: white;
+    background-color: orangered;
+    width: 200px;
+    padding: 9px 10px;
+    border-radius: 7px;
+
+}
