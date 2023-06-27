@@ -1,0 +1,64 @@
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin__contenedor{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+}
+.admin__cards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.admin__crud{
+    background-color: white;
+    width: 310px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.admin__img{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.admin__img img{
+    width: 60%;
+}
+.salir{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-right: 9px;
+    z-index: 100;
+    right: 0;
+    text-decoration: none;
+}
+.rojo{
+    background-color: red;
+    color: white;
+}
+.verde{
+    background-color: green;
+    color: white;
+}
+.azul{
+    background-color: blue;
+    color: white;
+}
+.estadisticas{
+    margin-top: 20px;
+    color: white;
+    font-size: 2rem;
+}
