@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "categoria":"bebidas",
+        "nombreP":"Don Julio",
+        "marca":"Don Julio",
+        "tipo":"Tequila",
+        "descripcion":"Alta calidad ",
+        "Cantidad de unidades":"1 litro",
+        "precio":1200,
+        "stock":5,
+        "imagenP":""
+    },
+    {
+        "id":"2",
+        "categoria":"bebidas",
+        "nombreP":"Smirnoff Tamarindo",
+        "marca":"Vodka",
+        "tipo":"Vodka",
+        "descripcion":"Sabor natural ",
+        "Cantidad de unidades":"1 litro",
+        "precio":265,
+        "stock":27,
+        "imagenP":""
+    },
+    {
+        "id":"3",
+        "categoria":"bebidas",
+        "nombreP":"Zaverich",
+        "marca":"ZAVERICH",
+        "tipo":"Vodka",
+        "Cantidad de unidades":"1 litro",
+        "descripcion":"Sabor natural ",
+        "precio":250,
+        "stock":18,
+        "imagenP":""
+    }
+    {
+        "id":"4",
+        "categoria":"materiales",
+        "nombreP":"Eje Giratorio",
+        "marca":"LLOSX",
+        "tipo":"Metal",
+        "Cantidad de unidades":"1 pieza",
+        "descripcion":"Elemento de transmisión de movimientogiratorio, no transmite potencia.",
+        "precio":150,
+        "stock":3,
+        "imagenP":""
+    }
+
+]

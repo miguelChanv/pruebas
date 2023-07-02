@@ -1,0 +1,52 @@
+.catalogos{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 50%;
+}
+.catalogos__bebidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.catalogos__1{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 220px;
+    border-radius: 20px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid rgba(131, 114, 108, 0.87);
+
+}
+.catalogos__1 img{
+    margin-top: 15px;
+    width: 80%;
+    border-radius: 10px;
+}
+.catalogos__1 h1{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.catalogos__bebidas a{
+    text-decoration: none;
+}
